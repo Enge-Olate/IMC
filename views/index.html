@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>IMC</title>
+</head>
+
+<body>
+    <section id="card">
+        <div id="cardTexto">
+            <h1>IMC</h1>
+            <p>Este projeto tem como objetivo informar o <a data-descr="Saiba mais"
+                    href="https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal">IMC </a>
+
+                O índice de massa corporal é uma medida internacional usada para calcular se uma pessoa está no peso
+                ideal.
+            </p>
+        </div>
+        <div class="card_table">
+            <article>
+                <p>A classificação segundo a OMS<span></span> para um peso ideal:</p>
+                <table>
+                    <thead>
+                       <tr>
+                           <th >
+                               IMC(kg/m2)
+                           </th>
+                           <th>
+                               Classificação
+                           </th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>Menor que 16,9</td>
+                            <td>Muito abaixo do peso</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>17 a 18,4</td>
+                            <td>Abaixo do peso</td>
+                        </tr>
+                        <tr>
+                            <td>18,5 a 24,9</td>
+                            <td>Peso normal</td>
+                        </tr>
+                        <tr>
+                            <td>25 a 29,9</td>
+                            <td>Acima do peso</td>
+                        </tr>
+                        <tr>
+                            <td>30 a 34,9</td>
+                            <td>Obesidade grau 1</td>
+                        </tr>
+                        <tr>
+                            <td>35 a 40</td>
+                            <td>Obesidade grau 2</td>
+                        </tr>
+                        <tr>
+                            <td>Maior que 40</td>
+                            <td>Obesidade grau 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>    
+        </div>
+        <div id="cardForm">
+            <form action="#">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" name="peso">
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" name="altura">
+                <button type="submit">Calcule</button>
+            </form>
+        </div>
+        <div id="resultado">
+            
+        </div>
+    </section>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

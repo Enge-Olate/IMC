@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-size: 1.3em;
+    color: #746363;
+    font-weight: bold;
+}
+
+#card {
+    background-image: linear-gradient(to right, #f3f3f3f3, #18d8f8);
+    max-width: 600px;
+    /* height: max-content; */
+    margin: 50px auto;
+    box-shadow: 3px 5px 20px 0 #336665;
+    border-radius: 4px;
+    padding: 4px;
+
+}
+
+#cardTexto {
+    border-left: 4px solid #18d8f8;
+    margin: 20px 0;
+}
+
+span::after {
+    content: '(ORGANIZAÇÃO MUNDIAL DA SAÚDE)';
+    color: #746363;
+    font-style: italic;
+
+}
+
+a {
+    color: #ffff;
+    text-shadow: 1px 1px 3px yellow;
+    text-decoration: none;
+}
+
+
+a::after {
+    content: "(Índice de massa corporal).";
+    color: #746363;
+    text-shadow: none;
+    font-style: italic;
+
+}
+
+
+#cardForm {
+    margin: 50px 0;
+    border-left: 4px solid #ffffe0;
+
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    color: #746363;
+    border-radius: 6px;
+    
+}
+
+form input:focus {
+    outline: 4px solid #ffffe0;
+    
+}
+
+form button {
+    border: none;
+    background-image: linear-gradient(to bottom, #ffff, #afeeee);
+    color: #746363;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    /* margin-top: 30px; */
+}
+
+form button:hover {
+    background-image: linear-gradient(to top, #afeeee, #ffffe0);
+}
+
+.card_table {
+    margin: 10px 0;
+
+}
+
+table {
+
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+td {
+    padding: 1px 10px;
+}
+
+
+.paragrafo_resultado, .bad{
+    margin: 20px 0;
+    padding: 20px ;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;   
+}
+.bad{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px yellow;
+color: #fff;
+}
