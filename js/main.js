@@ -10,20 +10,20 @@ form.addEventListener('submit', (e) => {
     const altura = Number(operandoAltura.value);
     console.log(peso, altura);
 
-    if (!peso) {
+    /* if (!peso) {
       seta_resultado("Peso inválido!", false);
       return;
     } else if(!altura) {
       seta_resultado("Altura inválido!", false);
       return;
-    }
-    
+    } */
+    !peso ? seta_resultado("Peso inválido!", false): seta_resultado("Altura inválida!", false);
     
 
     const imc = getImc(peso, altura);
     console.log(getImc(peso, altura));
     
-    const mensagem = `imc = ${imc}.`;
+    const mensagem = `imc = ${imc}`;
     seta_resultado(mensagem, true);
 
 });
@@ -52,6 +52,7 @@ function getImc (peso, altura) {
   
     p.innerHTML = msg;
     resultado.appendChild(p);
+  
   }
 
 

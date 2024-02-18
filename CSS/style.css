@@ -72,12 +72,12 @@ form input {
     height: 50px;
     color: #746363;
     border-radius: 6px;
-    
+
 }
 
 form input:focus {
     outline: 4px solid #ffffe0;
-    
+
 }
 
 form button {
@@ -112,15 +112,20 @@ td {
 }
 
 
-.paragrafo_resultado, .bad{
+.paragrafo_resultado,
+.bad {
     margin: 20px 0;
-    padding: 20px ;
+    padding: 20px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.5em;   
+    font-size: 1.5em;
 }
-.bad{
+
+.bad {
     text-transform: uppercase;
     text-shadow: 1px 1px 3px yellow;
-color: #fff;
+    color: #fff;
+}
+.bad::after {
+    content: "(Peso inválido!)";
 }
