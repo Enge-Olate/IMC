@@ -129,3 +129,13 @@ td {
     background-image: linear-gradient(to left, #ffffe0, #afeeee );
 
 }
+
+@media (min-width: 378px) {
+    #card{
+        display: flex;
+        flex-direction: column;
+    }
+    .bad{
+        background-image: linear-gradient(to left, #ffffe0, #afeeee );
+    }
+}
