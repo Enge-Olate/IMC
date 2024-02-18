@@ -123,9 +123,9 @@ td {
 
 .bad {
     text-transform: uppercase;
-    text-shadow: 1px 1px 3px yellow;
-    color: #fff;
+    text-shadow: 1px 1px 3px #ffffe0;
 }
-.bad::after {
-    content: "(Peso inválido!)";
+.bad::first-line{
+    background-image: linear-gradient(to left, #ffffe0, #afeeee );
+
 }
