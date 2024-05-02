@@ -15,7 +15,7 @@ body {
 
 #card {
     background-image: linear-gradient(to right, #f3f3f3f3, #18d8f8);
-    max-width: 600px;
+    max-width: 700px;
     height: fit-content;
     margin: 50px auto;
     box-shadow: 3px 5px 20px 0 #336665;
@@ -107,10 +107,21 @@ table {
 
 }
 
-td {
-    padding: 1px 10px;
+.expli {
+    padding: 3px 10px;
+    border-right: 2px solid #746363;
+    border-bottom:1px solid #ffffe0;
+    border-radius: 10px;
 }
-
+td{
+    border-bottom:1px solid #ffffe0;
+    border-radius: 10px;
+    
+}
+th{
+    color: #ffff;
+    text-shadow: 1px 1px 3px yellow;
+}
 
 .paragrafo_resultado,
 .bad {
@@ -130,7 +141,7 @@ td {
 
 }
 
-@media (min-width: 378px) {
+@media (max-width: 378px) {
     
     #card{
         display: flex;

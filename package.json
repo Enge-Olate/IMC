@@ -1,0 +1,20 @@
+{
+  "name": "imc",
+  "version": "1.0.0",
+  "description": "Projeto para calcular o índice de massa corporal(IMC) de forma rápida e facil.\r Treino Front-End!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "enge-olate",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
