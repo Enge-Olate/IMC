@@ -16,7 +16,7 @@ body {
 #card {
     background-image: linear-gradient(to right, #f3f3f3f3, #18d8f8);
     max-width: 600px;
-    /* height: max-content; */
+    height: fit-content;
     margin: 50px auto;
     box-shadow: 3px 5px 20px 0 #336665;
     border-radius: 4px;
@@ -131,10 +131,13 @@ td {
 }
 
 @media (min-width: 378px) {
+    
     #card{
         display: flex;
         flex-direction: column;
+        max-width: 378px;
     }
+    
     .bad{
         background-image: linear-gradient(to left, #ffffe0, #afeeee );
     }
